@@ -1,0 +1,28 @@
+@media (max-width: 991px) {
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 1rem;
+        background-color: $primary-color;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 0.5rem 1rem;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}

@@ -1,125 +1,240 @@
 <!DOCTYPE html>
 <html lang="vi">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catalog Đậu Phộng</title>
     <link rel="stylesheet" href="./dist/css/style.css" />
-</head>
+  </head>
 
-<body>
-    <header>
-        <h1>Đậu Phộng Thơm Ngon</h1>
-        <p>Chất lượng tạo nên thương hiệu</p>
-    </header>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="home">
+      <div class="navbar-container">
+        <a href="#" class="logo">Catalog</a>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Trang Chủ</a></li>
+          <li><a href="#products">Sản Phẩm</a></li>
+          <li><a href="#about">Về Chúng Tôi</a></li>
+          <li><a href="#contact">Liên Hệ</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Header -->
+ 
+      
 
+    <!-- Product Section -->
     <div class="container">
-        <!-- <div class="categories">
-            <button class="category-btn">Tất cả</button>
-            <button class="category-btn">Đậu phộng rang muối</button>
-            <button class="category-btn">Đậu phộng tẩm gia vị</button>
-            <button class="category-btn">Đậu phộng bọc socola</button>
-        </div> -->
-
-        <div class="products">
-            <div class="product-card">
-                <img src="https://product.hstatic.net/1000175970/product/dauphongnuoccotdua-60g_b7a66ef74c8342d388b592430d81e5e0.jpg" alt="Đậu phộng Tân Tân nước cốt dừa 60g" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Đậu Phộng Tân Tân Nước Cốt Dừa 60g</h3>
-                    <p class="product-price">8.800/gói 60g</p>
-                    <p class="product-specification">Quy cách: 60g/gói, 60 gói/thùng</p>
-                    <p class="product-box-price">Giá thùng: 528.000đ</p>
-                    <p class="product-description">Đậu phộng Tân Tân hương vị nước cốt dừa thơm ngon, béo ngậy, thích
-                        hợp cho các bữa ăn nhẹ.</p>
-                    <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
-                </div>
-            </div>
-
-            <div class="product-card">
-                <img src="https://product.hstatic.net/1000175970/product/dauphongnuoccotdua-24g_a1a5a3688924400cb794d833923314dc_master.jpg" alt="Đậu phộng Tân Tân nước cốt dừa" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Đậu Phộng Tân Tân Nước Cốt Dừa</h3>
-                    <p class="product-price">2.300/gói 16g</p>
-                    <p class="product-specification">Quy cách: 16g/gói, 200 gói/thùng</p>
-                    <p class="product-box-price">Giá thùng: 460.000đ</p>
-                    <p class="product-description">Đậu phộng Tân Tân vị nước cốt dừa thơm ngon, béo ngậy, hoàn hảo cho
-                        bữa ăn vặt.</p>
-                    <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
-                </div>
-            </div>
-
-            <div class="product-card">
-                <img src="https://product.hstatic.net/1000175970/product/dauphongphomai-24g_f38dbc2b2d1e4418b52dfd0cdf8a1e36.jpg" alt="Đậu phộng vị phô mai" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Đậu Phộng Vị Phô Mai</h3>
-                    <p class="product-price">3.800/gói</p>
-                    <p class="product-specification">Quy cách: 24g/gói, 100 gói/thùng</p>
-                    <p class="product-box-price">Giá thùng: 380.000đ</p>
-                    <p class="product-description">Đậu phộng vị phô mai thơm ngon, béo ngậy, phù hợp cho mọi lứa tuổi và
-                        dễ dàng mang theo.</p>
-                    <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
-                </div>
-            </div>
-
-            <div class="product-card">
-                <img src="https://product.hstatic.net/1000175970/product/funmix-24g_70ea0c2e63cd426cb3fb538fd30fe6e8_master.jpg" alt="Đậu phộng thập cẩm 24g" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Đậu Phộng Thập Cẩm 24g</h3>
-                    <p class="product-price">3.800/gói 24g</p>
-                    <p class="product-specification">Quy cách: 24g/gói, 100 gói/thùng</p>
-                    <p class="product-box-price">Giá thùng: 380.000đ</p>
-                    <p class="product-description">Đậu phộng thập cẩm với hương vị độc đáo, thơm ngon, phù hợp làm món
-                        ăn vặt cho mọi lứa tuổi.</p>
-                    <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
-                </div>
-            </div>
-
-            <div class="product-card">
-                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7qvfz-liwyj8h7lqb7f6.webp" alt="Đậu phộng socola khủng long" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Đậu Phộng Socola Khủng Long</h3>
-                    <p class="product-price">1.6đ/gói</p>
-                    <p class="product-specification">Quy cách: 1 xâu, 80 gói/xâu</p>
-                    <p class="product-box-price">Giá xâu: 128.000đ</p>
-                    <p class="product-description">Đậu phộng socola khủng long giòn rụm, ngọt ngào, hấp dẫn cho mọi độ
-                        tuổi.</p>
-                    <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
-                </div>
-            </div>
-            <div class="product-card">
-                <img src="https://product.hstatic.net/1000175970/product/rc190_1319bf41a6df4d8babcf6f44514b0192.png" alt="Đậu phộng vị rau cải 190g" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Đậu Phộng Vị Rau Cải 190g</h3>
-                    <p class="product-price">39.500đ/hủ 190g</p>
-                    <p class="product-specification">Quy cách: 190g/hủ, 24 hủ/thùng</p>
-                    <p class="product-box-price">Giá thùng: 948.000đ</p>
-                    <p class="product-description">Đậu phộng vị râu cải thơm ngon, giòn rụm, mang lại hương vị mới lạ,
-                        hấp dẫn.</p>
-                    <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
-                </div>
-            </div>
-            <div class="product-card">
-                <img src="https://product.hstatic.net/1000175970/product/dauphongdacatoiot-240g_ec5275ea43e044d2aec6c03422d53354.jpg" alt="Đậu phộng da cá tỏi ớt 240g" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Đậu Phộng Da Cá Tỏi Ớt 240g</h3>
-                    <p class="product-price">44.000đ/hủ 240g</p>
-                    <p class="product-specification">Quy cách: 240g/hủ, 24 hủ/thùng</p>
-                    <p class="product-box-price">Giá thùng: 1.056.000đ</p>
-                    <p class="product-description">Đậu phộng da cá tỏi ớt giòn rụm, vị tỏi ớt đậm đà, phù hợp cho các
-                        bữa ăn vặt.</p>
-                    <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
-                </div>
-            </div>
-
-
+      <h2 id="products">Danh Mục Sản Phẩm</h2>
+      <div class="products">
+        <div class="product-card">
+          <img
+            src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llwbfbgmiy1rde"
+            alt="Cà Phê Phố Sữa Đá Dây"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Cà Phê Phố Sữa Đá Dây</h3>
+            <p class="product-price">43,286đ/gói 24g x10 gói x60 dây</p>
+            <p class="product-specification">
+              Quy cách: 24g/gói x10 gói x60 dây
+            </p>
+            <p class="product-box-price">Giá thùng: 2,597,143 VNĐ</p>
+            <p class="product-description">
+              Cà phê sữa đá Phố Dây thơm ngon, dễ dàng pha chế tại nhà, tiện lợi
+              cho mỗi ly cà phê sữa đá.
+            </p>
+          </div>
         </div>
+
+        <div class="product-card">
+          <img
+            src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m252j0zpbel7c2.webp"
+            alt="Ngũ Cốc Yến Mạch Ít Đường"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Ngũ Cốc Yến Mạch Ít Đường</h3>
+            <p class="product-price">68,000đ/túi 24g x20 gói x10 túi</p>
+            <p class="product-specification">
+              Quy cách: 24g/gói x20 gói x10 túi
+            </p>
+            <p class="product-box-price">Giá thùng: 680,000 VNĐ</p>
+            <p class="product-description">
+              Ngũ cốc yến mạch ít đường giúp bạn có một bữa sáng bổ dưỡng và
+              khỏe mạnh.
+            </p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://filebroker-cdn.lazada.vn/kf/S4491e54d02e44e98a84ab7fa032ac21ae.jpg"
+            alt="Cà Phê Đen Đá Bịt"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Cà Phê Đen Đá Bịt</h3>
+            <p class="product-price">123,000đ/túi 16g x35 gói x10 túi</p>
+            <p class="product-specification">
+              Quy cách: 16g/gói x35 gói x10 túi
+            </p>
+            <p class="product-box-price">Giá thùng: 1,230,000 VNĐ</p>
+            <p class="product-description">
+              Cà phê đen đá bịt đậm đà, giúp bạn cảm nhận trọn vẹn hương vị cà
+              phê đen truyền thống.
+            </p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://product.hstatic.net/1000175970/product/dauphongnuoccotdua-60g_b7a66ef74c8342d388b592430d81e5e0.jpg"
+            alt="Đậu phộng Tân Tân nước cốt dừa 60g"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Đậu Phộng Tân Tân Nước Cốt Dừa 60g</h3>
+            <p class="product-price">8.800/gói 60g</p>
+            <p class="product-specification">Quy cách: 60g/gói, 60 gói/thùng</p>
+            <p class="product-box-price">Giá thùng: 528.000đ</p>
+            <p class="product-description">
+              Đậu phộng Tân Tân hương vị nước cốt dừa thơm ngon, béo ngậy, thích
+              hợp cho các bữa ăn nhẹ.
+            </p>
+            <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://product.hstatic.net/1000175970/product/dauphongnuoccotdua-24g_a1a5a3688924400cb794d833923314dc_master.jpg"
+            alt="Đậu phộng Tân Tân nước cốt dừa"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Đậu Phộng Tân Tân Nước Cốt Dừa</h3>
+            <p class="product-price">2.300/gói 16g</p>
+            <p class="product-specification">
+              Quy cách: 16g/gói, 200 gói/thùng
+            </p>
+            <p class="product-box-price">Giá thùng: 460.000đ</p>
+            <p class="product-description">
+              Đậu phộng Tân Tân vị nước cốt dừa thơm ngon, béo ngậy, hoàn hảo
+              cho bữa ăn vặt.
+            </p>
+            <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://product.hstatic.net/1000175970/product/dauphongphomai-24g_f38dbc2b2d1e4418b52dfd0cdf8a1e36.jpg"
+            alt="Đậu phộng vị phô mai"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Đậu Phộng Vị Phô Mai</h3>
+            <p class="product-price">3.800/gói</p>
+            <p class="product-specification">
+              Quy cách: 24g/gói, 100 gói/thùng
+            </p>
+            <p class="product-box-price">Giá thùng: 380.000đ</p>
+            <p class="product-description">
+              Đậu phộng vị phô mai thơm ngon, béo ngậy, phù hợp cho mọi lứa tuổi
+              và dễ dàng mang theo.
+            </p>
+            <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://product.hstatic.net/1000175970/product/funmix-24g_70ea0c2e63cd426cb3fb538fd30fe6e8_master.jpg"
+            alt="Đậu phộng thập cẩm 24g"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Đậu Phộng Thập Cẩm 24g</h3>
+            <p class="product-price">3.800/gói 24g</p>
+            <p class="product-specification">
+              Quy cách: 24g/gói, 100 gói/thùng
+            </p>
+            <p class="product-box-price">Giá thùng: 380.000đ</p>
+            <p class="product-description">
+              Đậu phộng thập cẩm với hương vị độc đáo, thơm ngon, phù hợp làm
+              món ăn vặt cho mọi lứa tuổi.
+            </p>
+            <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://down-vn.img.susercontent.com/file/sg-11134201-7qvfz-liwyj8h7lqb7f6.webp"
+            alt="Đậu phộng socola khủng long"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Đậu Phộng Socola Khủng Long</h3>
+            <p class="product-price">1.6đ/gói</p>
+            <p class="product-specification">Quy cách: 1 xâu, 80 gói/xâu</p>
+            <p class="product-box-price">Giá xâu: 128.000đ</p>
+            <p class="product-description">
+              Đậu phộng socola khủng long giòn rụm, ngọt ngào, hấp dẫn cho mọi
+              độ tuổi.
+            </p>
+            <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://product.hstatic.net/1000175970/product/rc190_1319bf41a6df4d8babcf6f44514b0192.png"
+            alt="Đậu phộng vị rau cải 190g"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Đậu Phộng Vị Rau Cải 190g</h3>
+            <p class="product-price">39.500đ/hủ 190g</p>
+            <p class="product-specification">Quy cách: 190g/hủ, 24 hủ/thùng</p>
+            <p class="product-box-price">Giá thùng: 948.000đ</p>
+            <p class="product-description">
+              Đậu phộng vị râu cải thơm ngon, giòn rụm, mang lại hương vị mới
+              lạ, hấp dẫn.
+            </p>
+            <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://product.hstatic.net/1000175970/product/dauphongdacatoiot-240g_ec5275ea43e044d2aec6c03422d53354.jpg"
+            alt="Đậu phộng da cá tỏi ớt 240g"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">Đậu Phộng Da Cá Tỏi Ớt 240g</h3>
+            <p class="product-price">44.000đ/hủ 240g</p>
+            <p class="product-specification">Quy cách: 240g/hủ, 24 hủ/thùng</p>
+            <p class="product-box-price">Giá thùng: 1.056.000đ</p>
+            <p class="product-description">
+              Đậu phộng da cá tỏi ớt giòn rụm, vị tỏi ớt đậm đà, phù hợp cho các
+              bữa ăn vặt.
+            </p>
+            <!-- <a href="#" class="buy-btn">Mua ngay</a> -->
+          </div>
+        </div>
+      </div>
     </div>
 
-    <footer>
-        <p>Liên hệ Tư vấn:0372 386 337</p>
-        <p>Địa chỉ:ntcong.exe@gmail.com</p>
+    <!-- Footer -->
+    <footer id="contact">
+      <p>Liên hệ Tư vấn: 0372 386 337</p>
+      <p>Email: ntcong.exe@gmail.com</p>
+      <p>© 2024 Đậu Phộng Thơm Ngon</p>
     </footer>
-</body>
 
+    <script src="./js/menu.js"></script>
+  </body>
 </html>
